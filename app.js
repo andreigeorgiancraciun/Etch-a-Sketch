@@ -3,7 +3,6 @@ const resetButton = document.getElementById("reset-btn");
 const blackButton = document.getElementById("black-btn");
 const cleanButton = document.getElementById("clear-btn");
 
-
 createGrid(16);
 
 function createGrid(gridSize){
@@ -72,8 +71,6 @@ function second(){
     resetButton.innerHTML = "Change Table Nr.";
     resetButton.onclick = first; 
 }
-
-
 
 function clearCell(cell) {
     cell.classList.remove("painted");
